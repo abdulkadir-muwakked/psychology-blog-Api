@@ -16,7 +16,6 @@ module.exports = (sequelize, DataTypes) => {
       Image.belongsTo(models.Tag, {foreignKey: "tagId"})
       Image.belongsTo(models.Category, {foreignKey: "categoryId"})
 
-      // define association here
     }
   }
   Image.init({
