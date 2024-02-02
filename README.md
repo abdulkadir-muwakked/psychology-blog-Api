@@ -1,1 +1,0 @@
-# psychology-blog-Api
